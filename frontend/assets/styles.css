@@ -1,0 +1,40 @@
+/* Futuristic UI for LuminaPath */
+
+body {
+    background: radial-gradient(circle at top, #0f2027, #203a43, #2c5364);
+    color: #f1f1f1;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    color: #00e5ff;
+    text-shadow: 0px 0px 10px rgba(0,229,255,0.8);
+}
+
+.stButton>button {
+    background: linear-gradient(90deg, #00e5ff, #29ffc6);
+    color: black;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px rgba(0,229,255,0.6);
+    transition: all 0.3s ease-in-out;
+}
+
+.stButton>button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px rgba(41,255,198,0.8);
+}
+
+/* Upload box */
+.stFileUploader {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 15px;
+    border-radius: 12px;
+    border: 2px dashed #00e5ff;
+    text-align: center;
+}
+
+.stAlert {
+    border-radius: 10px;
+    font-weight: bold;
+}

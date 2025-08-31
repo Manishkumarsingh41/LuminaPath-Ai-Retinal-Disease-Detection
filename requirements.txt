@@ -1,0 +1,9 @@
+streamlit
+torch
+torchvision
+tensorflow
+numpy
+pandas
+matplotlib
+scikit-learn
+reportlab
