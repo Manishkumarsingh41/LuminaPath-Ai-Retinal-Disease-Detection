@@ -48,3 +48,82 @@ python -m venv venv
 source venv/bin/activate       # Linux/macOS
 venv\Scripts\activate          # Windows
 
+```
+```bash 
+
+pip install -r requirements.txt
+
+```
+
+streamlit
+torch
+torchvision
+tensorflow
+numpy
+pandas
+matplotlib
+scikit-learn
+reportlab
+
+
+```
+```bash
+streamlit run frontend/app.py
+
+```
+## Project/File Structure
+```
+```bash
+
+LuminaPath/
+│
+├── frontend/
+│   ├── app.py                # Main Streamlit entry point
+│   ├── components/
+│   │   ├── upload_section.py # Upload & preview section
+│   │   ├── prediction_view.py
+│   │   ├── explanation_view.py
+│   │   ├── report_download.py
+│   │   └── language_selector.py
+│   ├── assets/
+│   │   ├── logo.png
+│   │   └── styles.css
+│   └── __init__.py
+│
+├── backend/
+│   ├── api.py
+│   ├── model_inference.py
+│   ├── report_generator.py
+│   └── __init__.py
+│
+├── models/
+│   └── retinal_cnn_model.h5
+│
+├── data/
+│   └── sample_images/
+│
+├── requirements.txt
+└── README.md
+
+```
+
+## Future Improvements
+
+Add hospital/clinic logo in the PDF reports
+
+Support detection of multiple retinal diseases
+
+Real-time webcam-based retinal scanning
+
+Deploy as a web service or desktop application
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Author
+
+## Manish Kumar Singh
+GitHub: https://github.com/Manishkumarsingh41
+
+Portfolio: https://iammanishsinghrajput.netlify.app/
