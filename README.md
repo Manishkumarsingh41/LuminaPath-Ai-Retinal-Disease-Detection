@@ -31,6 +31,10 @@ The core purpose of LuminaPath is to **automate retinal disease detection** and 
 
 ![UI Screenshot](path_to_screenshot.jpg)
 
+## Demo Report
+
+![UI Screenshot](path_to_screenshot2.jpg)
+
 ---
 
 ## Installation
