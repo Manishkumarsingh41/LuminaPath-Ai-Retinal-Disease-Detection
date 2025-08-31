@@ -52,20 +52,6 @@ venv\Scripts\activate          # Windows
 ```bash 
 
 pip install -r requirements.txt
-
-```
-
-streamlit
-torch
-torchvision
-tensorflow
-numpy
-pandas
-matplotlib
-scikit-learn
-reportlab
-
-
 ```
 
 streamlit run frontend/app.py
