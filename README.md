@@ -42,6 +42,7 @@ git clone https://github.com/Manishkumarsingh41/LuminaPath-Ai-Retinal-Disease-De
 cd LuminaPath
 
 
+```
 ```bash 
 python -m venv venv
 source venv/bin/activate       # Linux/macOS
