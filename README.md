@@ -67,13 +67,13 @@ reportlab
 
 
 ```
-```bash
+
 streamlit run frontend/app.py
 
 ```
 ## Project/File Structure
 ```
-```bash
+
 
 LuminaPath/
 │
